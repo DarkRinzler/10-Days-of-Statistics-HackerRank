@@ -5,6 +5,8 @@ Note: Other than the modal value (which will always be an integer), your answers
 
 Solution:
 
+#!/bin/python3
+
 def mean(array):
     c = 0
     for k in range(len(array)):
@@ -38,8 +40,11 @@ def mode(array):
 if __name__ == "__main__":
     
     size = int(input())
+
     a = list(map(int, input().split()))
     
     print(mean(a))
+
     print(median(a))
+
     print(mode(a))
