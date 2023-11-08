@@ -33,12 +33,10 @@ if __name__ == '__main__':
     
     high_test = 1 - normal_cprob(high_grade, avg_grade, std_grade)
     
-    med_test = normal_cprob(high_grade, avg_grade, std_grade) - normal_cprob(pass_grade, avg_grade, std_grade)
-    
-    pass_test = high_test + med_test
+    med_test = normal_cprob(pass_grade, avg_grade, std_grade)
     
     print(round(high_test * 100, 2))
     
-    print(round(pass_test * 100, 2))
+    print(round((1 - med_test) * 100, 2))
     
-    print(round((1 - pass_test) *100, 2))
+    print(round(med_test *100, 2))
