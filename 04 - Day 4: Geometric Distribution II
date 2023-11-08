@@ -28,6 +28,6 @@ if __name__ == '__main__':
     sum_prob_defect = 0
     
     for k in range(1, num_item+1):
-        sum_prob_defect = sum_prob_defect + geometric_prob(k, prob_defect)
+        sum_prob_defect += geometric_prob(k, prob_defect)
     
     print(round(sum_prob_defect, 3))
