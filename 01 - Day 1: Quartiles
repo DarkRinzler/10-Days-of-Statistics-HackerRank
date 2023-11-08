@@ -1,6 +1,17 @@
-Given an array arr, of n integers, calculate the respective first quartile (Q_1), second quartile (Q_2), and third quartile (Q_3). It is guaranteed that Q_1, Q_2, and Q_3 are integers.
+# ===================================
+#   Problem statement & information
+# ===================================
 
-Solution:
+# Given an array arr, of n integers, calculate the respective first quartile (Q_1), second quartile (Q_2), and third quartile (Q_3). 
+# It is guaranteed that Q_1, Q_2, and Q_3 are integers.
+
+# Difficulty: Easy
+# Max Score: 30
+# Language: Python
+
+# ===================================
+#              Solution
+# ===================================
 
 #!/bin/python3
 
