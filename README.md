@@ -13,8 +13,12 @@ The repository contains the solution of the 10 Days of Statistics challenges on 
 |  2  |       Compound Event Probability      |  [Problem](https://www.hackerrank.com/challenges/s10-mcq-3/problem)                  |      Easy      |    10   |
 |  3  |          Conditional Probability      |  [Problem](https://www.hackerrank.com/challenges/s10-mcq-4/problem)                  |      Easy      |    10   |
 |  3  |         Cards of the Same Suit        |  [Problem](https://www.hackerrank.com/challenges/s10-mcq-5/problem)                  |      Easy      |    10   |
-|  3  |           Drawing Marbles             |  [Problem](https://www.hackerrank.com/challenges/s10-mcq-6/problem)                  |      Easy      |    10   |
-|  4  |          Binomial Distribution I      | [Problem](https://www.hackerrank.com/challenges/s10-binomial-distribution-1/problem) |      Easy      |    30   |
-|  4  |          Binomial Distribution II     | [Problem](https://www.hackerrank.com/challenges/s10-binomial-distribution-2/problem) |      Easy      |    30   |
+|  3  |            Drawing Marbles            |  [Problem](https://www.hackerrank.com/challenges/s10-mcq-6/problem)                  |      Easy      |    10   |
+|  4  |        Binomial Distribution I        | [Problem](https://www.hackerrank.com/challenges/s10-binomial-distribution-1/problem) |      Easy      |    30   |
+|  4  |        Binomial Distribution II       | [Problem](https://www.hackerrank.com/challenges/s10-binomial-distribution-2/problem) |      Easy      |    30   |
 |  4  |         Geometric Distribution I      | [Problem](https://www.hackerrank.com/challenges/s10-geometric-distribution-1/problem)|      Easy      |    30   |
-|  4  |         Geometric Distribution II     | [Problem](https://www.hackerrank.com/challenges/s10-geometric-distribution-2/problem)|      Easy      |    30   |
+|  4  |       Geometric Distribution II       | [Problem](https://www.hackerrank.com/challenges/s10-geometric-distribution-2/problem)|      Easy      |    30   |
+|  5  |        Poisson Distribution I         | [Problem](https://www.hackerrank.com/challenges/s10-poisson-distribution-1/problem)  |      Easy      |    30   |
+|  5  |        Poisson Distribution II        | [Problem](https://www.hackerrank.com/challenges/s10-poisson-distribution-2/problem)  |      Easy      |    30   |
+|  5  |         Normal Distribution I         | [Problem](https://www.hackerrank.com/challenges/s10-normal-distribution-1/problem)   |      Easy      |    30   |
+|  5  |         Normal Distribution II        | [Problem](https://www.hackerrank.com/challenges/s10-normal-distribution-2/problem)   |      Easy      |    30   |
