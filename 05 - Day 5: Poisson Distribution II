@@ -18,11 +18,11 @@
 
 if __name__ == '__main__':
     
-    mean = list(map(float, input().strip().split()))
+    avg_X, avg_Y = list(map(float, input().strip().split()))
     
-    Cost_A = 160 + 40 * (mean[0] + mean[0] ** 2)
+    Cost_A = 160 + 40 * (avg_X + avg_X ** 2)
     
-    Cost_B = 128 + 40 * (mean[1] + mean[1] ** 2)
+    Cost_B = 128 + 40 * (avg_Y + avg_Y ** 2)
     
     print(round(Cost_A, 3))
     
