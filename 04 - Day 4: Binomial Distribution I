@@ -13,6 +13,8 @@
 #              Solution
 # ===================================
 
+#!/bin/python3
+
 def factorial(num):
     partial_fact = 1
     for k in range(1, num+1):
