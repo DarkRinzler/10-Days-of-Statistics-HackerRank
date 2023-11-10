@@ -15,6 +15,7 @@
 #              Solution
 # ===================================
 
+#!/bin/python3
 
 def factorial(num):
     partial_fact = 1
