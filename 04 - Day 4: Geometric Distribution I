@@ -12,6 +12,8 @@
 #              Solution
 # ===================================
 
+#!/bin/python3
+
 def geometric_prob(num_succ_event, prob_succ):
     prob_insucc = 1 - prob_succ
     return prob_succ * (prob_insucc ** (num_succ_event - 1))
