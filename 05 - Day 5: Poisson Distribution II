@@ -16,6 +16,8 @@
 #              Solution
 # ===================================
 
+#!/bin/python3
+
 if __name__ == '__main__':
     
     avg_X, avg_Y = list(map(float, input().strip().split()))
