@@ -14,6 +14,8 @@
 #              Solution
 # ===================================
 
+#!/bin/python3
+
 import math
 
 def normal_cprob(value, avg, sd):
