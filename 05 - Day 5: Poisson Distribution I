@@ -12,6 +12,8 @@
 #              Solution
 # ===================================
 
+#!/bin/python3
+
 import math
 
 def Poisson(num_avg, num_succ):
