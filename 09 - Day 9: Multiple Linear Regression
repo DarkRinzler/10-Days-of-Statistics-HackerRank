@@ -1,0 +1,68 @@
+# ===================================
+#   Problem statement & information
+# ===================================
+
+# Andrea has a simple equation: Y = a + b_1*f_1+...+ b_m*f_m for (m+1) real constants (a,f_1,..,f_m). We can say that the value of Y depends on m features. Andrea studies this equation for n 
+# different feature sets (f_1,f_2,f_3,..,f_m) and records each respective value of Y. If she has q new feature sets, can you help Andrea find the value of Y for each of the sets?
+
+# Difficulty: Easy
+# Max Score: 30
+# Language: Python
+
+# ===================================
+#              Solution
+# ===================================
+
+# ===================================
+#             Method 1
+# ===================================
+
+#!/bin/python3
+
+import numpy as np
+
+def tran(matrix):
+    return matrix.transpose()
+    
+def inv(matrix):
+    return np.linalg.inv(matrix)
+    
+def prod(matrix_1, matrix_2):
+    return np.dot(matrix_1, matrix_2)
+
+def prod_all(matrix_1):
+    return prod(inv(prod(tran(matrix_1), matrix_1)), tran(matrix_1))
+
+def coeff(matrix_1, matrix_2):
+    return prod(prod_all(matrix_1), matrix_2)
+    
+if __name__ == '__main__':
+    
+    X, Y, Z = [], [], []
+    
+    columns, rows = list(map(int, input().split()))
+    
+    for k in range(rows):
+        xentries = list(map(float, input().split()))
+        X.append([1] + xentries[:columns])
+        Y.append(xentries[columns:])
+        
+    X_mat = np.matrix(X)
+    Y_mat = np.matrix(Y)
+        
+    result = int(input())
+    
+    for k in range(result):
+        zentries = list(map(float, input().split()))
+        Z.append([1] + zentries[::])
+        Z_mat = np.matrix(Z)
+        print(round(prod(Z_mat, coeff(X_mat, Y_mat))[0, 0], 2))
+        Z *= 0
+
+# ===================================
+#             Method 2
+# ===================================
+
+#!/bin/python3
+
+    
