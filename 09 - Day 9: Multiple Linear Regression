@@ -52,6 +52,6 @@ if __name__ == '__main__':
     
     for k in range(result):
         entries = list(map(float, input().split()))
-        Z = np.array([1] + entries[::])
+        Z = np.insert(entries, 0, 1)
         print(round(prod(Z, coeff(X, Y))[0], 2))
     
