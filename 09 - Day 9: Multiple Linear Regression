@@ -38,31 +38,20 @@ def coeff(matrix_1, matrix_2):
     
 if __name__ == '__main__':
     
-    X, Y, Z = [], [], []
-    
     columns, rows = list(map(int, input().split()))
     
+    X = np.ones((rows, columns + 1))
+    Y = np.zeros((rows, 1))
+    
     for k in range(rows):
-        xentries = list(map(float, input().split()))
-        X.append([1] + xentries[:columns])
-        Y.append(xentries[columns:])
-        
-    X_mat = np.matrix(X)
-    Y_mat = np.matrix(Y)
+        entries = list(map(float, input().split()))
+        X[k, 1:] = entries[:columns]
+        Y[k] = entries[columns]
         
     result = int(input())
     
     for k in range(result):
-        zentries = list(map(float, input().split()))
-        Z.append([1] + zentries[::])
-        Z_mat = np.matrix(Z)
-        print(round(prod(Z_mat, coeff(X_mat, Y_mat))[0, 0], 2))
-        Z *= 0
-
-# ===================================
-#             Method 2
-# ===================================
-
-#!/bin/python3
-
+        entries = list(map(float, input().split()))
+        Z = np.array([1] + entries[::])
+        print(round(prod(Z, coeff(X, Y))[0], 2))
     
