@@ -23,7 +23,7 @@ def stdDev(array):
     var = sum((x - mean) ** 2 for x in array) / len(array)
     return var ** 0.5
     
-def Pcorr(num, setX, setY):
+def SPcorr(num, setX, setY):
     sdX, sdY = stdDev(setX), stdDev(setY)
     xm, ym = sum(setX)/len(setX), sum(setY)/len(setY)
     cov = sum((i-xm)*(j-ym) for i, j in zip(setX, setY))/(num*sdX*sdY)
@@ -35,4 +35,4 @@ if __name__ == '__main__':
     X = list(map(float, input().strip().split()))
     Y = list(map(float, input().strip().split()))
     
-    print(round(Pcorr(n, rank(X), rank(Y)), 3))
+    print(round(SPcorr(n, rank(X), rank(Y)), 3))
