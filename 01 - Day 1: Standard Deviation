@@ -16,16 +16,8 @@
 
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 def stdDev(arr):
-    s = 0
-    for k in range(len(arr)):
-        s += ((arr[k] - sum(arr) / len(arr)) **2) / len(arr)
+    s = sum((k - sum(arr) / len(arr)) **2 for k in arr) / len(arr)
     return print(round(s ** 0.5, 1))
     
 if __name__ == '__main__':
