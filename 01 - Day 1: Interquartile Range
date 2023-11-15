@@ -19,12 +19,6 @@
 
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 def median(arr):
     if len(arr) % 2 != 0:
         med = round(arr[len(arr) // 2], 1)
@@ -43,11 +37,11 @@ def quartiles(arr):
     return Q1, Q2, Q3
 
 def interQuartile(values, freqs):
-    for k in range(len(values)):
-        for i in range(freqs[k] - 1):
-            values.append(values[k])
-    values.sort()
-    print("{:.1f}".format(quartiles(values)[2]-quartiles(values)[0]))
+    new_val = []
+    for k, i in zip(values, freqs):
+        new_val.extend([k] * i)
+    new_val.sort()
+    print("{:.1f}".format(quartiles(new_val)[2]-quartiles(new_val)[0]))
     
 
 if __name__ == '__main__':
