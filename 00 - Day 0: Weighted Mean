@@ -16,19 +16,10 @@
 
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 def weightedMean(X, W):
-    s1, s2 = 0, 0
-    for k in range(len(X)):
-        s1 += X[k]*W[k]
-        s2 += W[k]
+    s1 = sum(i*j for i, j in zip(X, W))
+    s2 = sum(i for i in W)
     return print(round(s1/s2, 1))
-
 if __name__ == '__main__':
 
     n = int(input().strip())
