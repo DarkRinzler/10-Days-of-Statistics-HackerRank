@@ -24,12 +24,12 @@
 
 2. A = {(4,6), (5,5), (5,6), (6,6), (6,4), (6,5)} 
 
-# The total possible outcomes will be equal to 36, in another word the total number of sides of the dice to the power of the number of dices considered. Given the definition of probability and the fact
-# that 
+# The total possible outcomes will be equal to 36, in other words the total number of sides on each die raised to the power of the number of dice considered. Given the definition of probability 
+# and the fact that 
 
 3. P(A^c) = 1 - P(A)
 
 # we find the desired result
 
-P(A) = 1/6  ------> P(A^c) = 5/6
+4. P(A) = 1/6  ------> P(A^c) = 5/6
 
