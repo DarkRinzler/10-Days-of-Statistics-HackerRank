@@ -29,6 +29,6 @@ The repository contains the solution of the 10 Days of Statistics challenges on 
 |  7  |Spearman's Rank Correlation Coefficient|[Problem](https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient/problem)|      Easy      |    30   |
 |  8  |     Least Square Regression Line      |  [Problem](https://www.hackerrank.com/challenges/s10-least-square-regression-line/problem)       |      Easy      |    30   |
 |  8  |   Pearson Correlation Coefficient II  |  [Problem](https://www.hackerrank.com/challenges/s10-mcq-7/problem)                              |      Easy      |    30   |
-|  9  |      Multiple Linear Regression       |  [Problem](https://www.hackerrank.com/challenges/s10-multiple-linear-regression/problem)         |      Easy      |    30   |
+|  9  |      Multiple Linear Regression       |  [Problem](https://www.hackerrank.com/challenges/s10-multiple-linear-regression/problem)         |     Medium     |    30   |
 
 
