@@ -18,11 +18,9 @@
 #!/bin/python3
 
 def mean(array):
-    c = 0
-    for k in range(len(array)):
-        c += array[k]
-    return c/len(array)
-    
+    c = sum(i for i in array)/len(array)
+    return c
+        
 def median(array):
     array.sort()
     if len(array)% 2 != 0:
