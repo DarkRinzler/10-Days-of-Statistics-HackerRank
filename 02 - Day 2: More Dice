@@ -22,8 +22,8 @@
 
 2. A = {(1,5), (2,4), (4,2), (5,1)} 
 
-# As a result, as the total possible outcomes will be equal to 36, in other words the total number of sides on each die raised to the power of the number of dice considered. The desired 
-# probability will be
+# As a result, as the total possible outcomes will be equal to 36, in other words the total number of sides on each die raised to the power of the number of dice 
+# considered. The desired probability will be
 
 3. P(A) = 4/36  ------> P(A) = 1/9
 
